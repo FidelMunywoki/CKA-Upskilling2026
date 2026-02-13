@@ -6,7 +6,7 @@ Last updated: February 2026
 
 ## Quick Navigation
 
-- [Cluster Architecture & Maintenance](./cka-short-notes/01-cluster-architecture.md)
+- [Cluster Architecture & Maintenance](cka-short-notes/01_core_concepts.md)
 - [Pod Lifecycle & Deployments](./02-pod-lifecycle.md)
 - [Multi-container Pods & Init Containers](./03-multi-container-init-containers.md)
 - [Scaling & Autoscaling](./04-scaling-autoscaling.md)
@@ -24,3 +24,4 @@ Last updated: February 2026
 
 
 Good luck with your CKA exam!
+
