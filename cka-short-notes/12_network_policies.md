@@ -46,7 +46,7 @@ spec:
   egress:                           # array of ALLOW rules for outgoing traffic
   - to: [...]                       # destinations
     ports: [...]
-
+```
 
 ## NetworkPolicy Quick Reference
 
