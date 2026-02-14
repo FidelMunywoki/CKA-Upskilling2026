@@ -47,6 +47,7 @@ spec:
   - to: [...]                       # destinations
     ports: [...]
 
+
 ## NetworkPolicy Quick Reference
 
 | Field | When Empty / Omitted | Common Exam Mistake |
