@@ -52,19 +52,19 @@ spec:
 | Field | When Empty / Omitted | Common Exam Mistake |
 | :--- | :--- | :--- |
 | **`podSelector: {}`** | Applies to **all pods** in the namespace | Forgetting to limit scope |
-| **`policyTypes`** | Defaults to `[Ingress]` if ingress rules exist | Forgetting → direction remains allow-all |
+| **`policyTypes`** | Defaults to `[Ingress]` if ingress rules exist | Forgetting -> direction remains allow-all |
 | **`ports: []`** | **All ports** and all protocols allowed | Often intentionally omitted |
-| **`from: []` / `to: []`** | No sources/destinations $\rightarrow$ effectively deny | — |
+| **`from: []` / `to: []`** | No sources/destinations -> effectively deny | — |
+
+---
 
 ## 4. High-Yield Exam Patterns (Memorize & Practice These!)
 
 ### 4.1 Default Deny All Ingress (Isolate namespace)
-
 ```yaml
 spec:
   podSelector: {}               # selects all pods
-  policyTypes: [Ingress]        # no ingress rules → deny all inbound (except node traffic)
-```
+  policyTypes: [Ingress]        # no ingress rules -> deny all inbound
 
 ### 4.2 Default Deny All Egress
 
